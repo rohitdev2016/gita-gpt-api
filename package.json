@@ -1,0 +1,9 @@
+{
+  "name": "gita-gpt-api",
+  "type": "module",
+  "dependencies": {
+    "express": "^4.18.2",
+    "openai": "^4.0.0",
+    "cors": "^2.8.5"
+  }
+}
