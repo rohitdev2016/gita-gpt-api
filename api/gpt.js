@@ -26,7 +26,7 @@ Return your response as a JSON object like:
 
   try {
     const completion = await openai.chat.completions.create({
-      model: "gpt-4",
+      model: "gpt-3.5-turbo", //gpt-4
       messages: [
         { role: "system", content: systemPrompt },
         { role: "user", content: question }
